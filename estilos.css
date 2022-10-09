@@ -1,0 +1,81 @@
+/* Login */
+
+.login_form {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(151deg, rgba(240,247,255,1) 0%, rgba(193,209,232,1) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.login_content {
+    width: 350px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    padding: 20px;
+}
+
+.register_block {
+    padding: 20px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    background: linear-gradient(151deg, rgb(240, 240, 240) 0%,rgb(255, 255, 255) 100%);
+}
+
+/* Index */
+
+.icono_index {
+    width: 50px;
+    height: 50px;
+}
+
+.button_box {
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(139, 139, 139);
+    background: linear-gradient(151deg, rgb(97, 171, 255) 0%, rgb(151, 189, 255) 100%);
+}
+
+/* Navbar */
+
+.nav_btn {
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    background: linear-gradient(151deg, rgb(240, 240, 240) 0%,rgb(255, 255, 255) 100%);
+    width: 200px;
+}
+
+.nav_icon {
+    width: 30px;
+    height: 30px;
+}
+
+.nav_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_text {
+    font-size: xx-small;
+}
+
+/* Mensajes */
+
+.mensaje {
+    border: 1px solid rgb(216, 216, 216);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: linear-gradient(151deg, rgb(240, 240, 240) 0%,rgb(255, 255, 255) 100%);
+}
+
+/* General */
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+  }
