@@ -5,10 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nanapp</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 <body>
     
-    <h1>Ofertar</h1>
+    <section class="login_form">
+        <div class="login_content">
+            <center>
+                <a href="index.html">
+                    <h1>Nanapp</h1>
+                    <p class="text-secondary">Conectando profesionales del hogar</p>
+                </a>
+            </center>
+
+            <div>
+                <center>
+                    <h5>Ofrecer trabajo</h5>
+                </center>
+                
+                <div>
+                    <p>
+                        Ocupación:
+                        <input type="text" class="form-control">
+                    </p>
+    
+                    <p>
+                        Descripción:
+                        <textarea type="text" class="form-control"></textarea>
+                    </p>
+
+                    <p>
+                        <div>
+                            Duración:
+                            <div class="d-flex">
+                                <input type="number" class="form-control" value="2">
+                                <span class="text-white">w</span>
+                                <select class="form-select" name="" id="">
+                                    <option value="" selected>Semanas</option>
+                                    <option value="">Meses</option>
+                                    <option value="">Indefinido</option>
+                                </select>
+                            </div>
+                        </div>
+                    </p>
+
+                    <p>
+                        <div>
+                            Disponibilidad:
+                            <div class="dias_group">
+                                <p>
+                                    <input type="checkbox" name="dia1" class="form-check-input m-1" checked>
+                                    <label for="dia1" class="form-check-label">Lunes</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox" name="dia2" class="form-check-input m-1">
+                                    <label for="dia1" class="form-check-label">Martes</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox" name="dia3" class="form-check-input m-1" checked>
+                                    <label for="dia1" class="form-check-label">Miércoles</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox" name="dia4" class="form-check-input m-1">
+                                    <label for="dia1" class="form-check-label">Jueves</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox" name="dia5" class="form-check-input m-1" checked>
+                                    <label for="dia1" class="form-check-label">Viernes</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox" name="dia6" class="form-check-input m-1">
+                                    <label for="dia1" class="form-check-label">Sábado</label>
+                                </p>
+                            </div>
+                        </div>
+                    </p>
+    
+                </div>
+            
+            <center>
+                <a href="index.html" type="button" class="btn btn-danger m-1">Cancelar</a>
+                <a href="index.html" type="button" class="btn btn-success m-1">Publicar</a>
+            </center>
+
+            </div>
+
+        </div>
+    </section>
 
 </body>
 </html>
