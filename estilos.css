@@ -120,3 +120,17 @@
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
   }
+
+/* Tarea */
+
+td {
+}
+
+.tarea {
+    background-color: rgb(255, 123, 123);
+}
+
+.tabla_tarea td {
+    padding: 5px;
+    font-size: xx-small;
+}
